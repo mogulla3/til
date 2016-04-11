@@ -1,0 +1,6 @@
+front,back,tag_list
+grepで出力する件数を限定するオプションは何か,"mオプション
+
+```
+$ grep -m 1 'pattern' ./target.log
+```",
