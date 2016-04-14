@@ -1,25 +1,29 @@
-front,back,memo,tag_list
+front,back,tag_list
 残念だけど...,"I'm afraid..
-(ex) I'm afraid it will rain tonight(残念だけど今夜は雨のようだ）",,English
+(ex) I'm afraid it will rain tonight(残念だけど今夜は雨のようだ）",English
 ...するのはどう？,"How about if..?
-(ex) How about if we go to the outlet mall?（アウトレットモールに行くのはどう？）",,English
+(ex) How about if we go to the outlet mall?（アウトレットモールに行くのはどう？）",English
 灰皿,"ashtray
-(ex) empty an ashtray（灰皿の灰を捨てる）",,English
+(ex) empty an ashtray（灰皿の灰を捨てる）",English
 雀,"sparrow
-(ex) Sparrow and his Four Children（親雀と4羽の小雀 – グリム童話）",,English
+(ex) Sparrow and his Four Children（親雀と4羽の小雀 – グリム童話）",English
 切手,"stamp
-(ex) Which window sells stamps?（切手が買える窓口はどこですか？）",,English
+(ex) Which window sells stamps?（切手が買える窓口はどこですか？）",English
 秘書,"secretary
-(ex) Secretary Division（秘書課）",,English
+(ex) Secretary Division（秘書課）",English
 弁護士,"lawyer
-(ex) A lawyer never goes to lay himself（弁護士が自分のことで法にすがることはない – ことわざ）",,English
-彼は親切です,He is kind.,,English
-ファイルの名称をbefore.txtからafter.txtに変更しました,I changed file name from 'before.txt' to 'after.txt'.,,English
-新機能を実装しました,I implemented new feature.,,English
-はじめまして。,Nice to meet you.,,English
-すいません、降ります。,"Excuse me, I'm getting off.",,English
-渋谷駅を探しています。どこにあるか知っていますか？,I'm looking for Shibuya station. Do you know where it is?,,English
-最寄りのローソンへはどう行けばよいでしょうか？,How do I get to the nearest Lawson?,,English
+(ex) A lawyer never goes to lay himself（弁護士が自分のことで法にすがることはない – ことわざ）",English
+彼は親切です,He is kind.,English
+ファイルの名称をbefore.txtからafter.txtに変更しました,I changed file name from 'before.txt' to 'after.txt'.,English
+新機能を実装しました,I implemented new feature.,English
+はじめまして。,Nice to meet you.,English
+すいません、降ります。,"Excuse me, I'm getting off.",English
+渋谷駅を探しています。どこにあるか知っていますか？,I'm looking for Shibuya station. Do you know where it is?,English
+最寄りのローソンへはどう行けばよいでしょうか？,How do I get to the nearest Lawson?,English
 どういたしまして。,"You are welcome.
 No problem.
-Don't mention it.",,English
+Don't mention it.",English
+お腹が空きました。食事に行きませんか。,I'm hungry. Why don't we get something to eat?,
+いただきます,Let's eat!,
+マイクと呼んでください,Please call me Mike.,
+私に電話してください,Please give me a call.,
