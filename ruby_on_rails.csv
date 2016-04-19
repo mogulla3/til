@@ -3,3 +3,12 @@ Railsの初期化コードの置き場所を4つ,"- config/application.rb
 - 環境に応じた設定ファイル
 - イニシャライザ
 - アフターイニシャライザ",rails
+Rails実行前に実行したいコードがある場合、どうするか,"config/application.rbの`require 'rails/all`行より前に書く
+
+```
+require File.expand_path('../boot', __FILE__)
+
+# ここ
+require 'rails/all'
+require 'csv'
+```",rails
