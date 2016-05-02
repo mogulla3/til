@@ -1,4 +1,4 @@
-front,back,tag_list
+front,back,deck_list
 残念だけど...,"I'm afraid..
 (ex) I'm afraid it will rain tonight(残念だけど今夜は雨のようだ）",English
 ...するのはどう？,"How about if..?
@@ -40,3 +40,7 @@ No, not really.（いや、それほどでもないよ）",
 今何をしているのですか？,What are you doing now?,
 あなたは本を何冊持っていますか？,How many books do you have?,
 彼女はいくらお金が必要なのですか？,How much money does she need?,
+次の駅,"the next stop, the next station",
+次の次の駅,the station after next,
+次の次の次の駅（3つ目の駅）,the third station,
+次の次の次の次の駅（4つ目の駅）,the forth station,

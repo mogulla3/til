@@ -1,4 +1,4 @@
-front,back,tag_list
+front,back,deck_list
 Object#sendのメリット,"- sendを使うと呼び出したいメソッド名が通常の引数になり、コードの実行時に呼び出すメソッドを決められるようになる（動的ディスパッチ）
 - privateメソッドを呼び出せる",ruby
 動的ディスパッチとはなにか,"コードの実行時に呼び出すメソッドを決めること。Object#sendがその例。

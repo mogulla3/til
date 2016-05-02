@@ -1,4 +1,4 @@
-front,back,tag_list
+front,back,deck_list
 Railsの初期化コードの置き場所を4つ,"- config/application.rb
 - 環境に応じた設定ファイル
 - イニシャライザ
