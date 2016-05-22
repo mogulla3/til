@@ -1,4 +1,4 @@
-front,back,deck_list
+front,back,deck_name
 残念だけど...,"I'm afraid..
 (ex) I'm afraid it will rain tonight(残念だけど今夜は雨のようだ）",English
 ...するのはどう？,"How about if..?
@@ -23,24 +23,24 @@ front,back,deck_list
 どういたしまして。,"You are welcome.
 No problem.
 Don't mention it.",English
-お腹が空きました。食事に行きませんか。,I'm hungry. Why don't we get something to eat?,
-いただきます,Let's eat!,
-マイクと呼んでください,Please call me Mike.,
-私に電話してください,Please give me a call.,
-プログラミングをしたことはありますか？,Have you ever tried programming?,
-彼女に会うのを楽しみにしています。,I'm looking forward to seeing her.,
+お腹が空きました。食事に行きませんか。,I'm hungry. Why don't we get something to eat?,English
+いただきます,Let's eat!,English
+マイクと呼んでください,Please call me Mike.,English
+私に電話してください,Please give me a call.,English
+プログラミングをしたことはありますか？,Have you ever tried programming?,English
+彼女に会うのを楽しみにしています。,I'm looking forward to seeing her.,English
 気にしないでください,"Forget it.
 
 Sorry I didn't come to your party.（パーティにいけなくてごめんなさい）
-It's OK. Forget it.（いいんですよ。気にしないでください）",
+It's OK. Forget it.（いいんですよ。気にしないでください）",English
 お腹空いてないのですか？,"Aren't you hungry?
 
 Aren't you cold?（寒くないのですか？）
-No, not really.（いや、それほどでもないよ）",
-今何をしているのですか？,What are you doing now?,
-あなたは本を何冊持っていますか？,How many books do you have?,
-彼女はいくらお金が必要なのですか？,How much money does she need?,
-次の駅,"the next stop, the next station",
-次の次の駅,the station after next,
-次の次の次の駅（3つ目の駅）,the third station,
-次の次の次の次の駅（4つ目の駅）,the forth station,
+No, not really.（いや、それほどでもないよ）",English
+今何をしているのですか？,What are you doing now?,English
+あなたは本を何冊持っていますか？,How many books do you have?,English
+彼女はいくらお金が必要なのですか？,How much money does she need?,English
+次の駅,"the next stop, the next station",English
+次の次の駅,the station after next,English
+次の次の次の駅（3つ目の駅）,the third station,English
+次の次の次の次の駅（4つ目の駅）,the forth station,English
