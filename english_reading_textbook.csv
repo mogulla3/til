@@ -65,7 +65,7 @@ Walking along the stream, I met a group of hikers. - 流れに沿って歩いて
 Persuaded by his friends, Brutus made up his mind to kill Caesar. - 友人たちに説き伏せられて、ブルータスはシーザーを殺そうと決心した
 ```"
 分詞とは何か,"動詞と形容詞の性質を兼ねているもので、現在分詞と過去分詞の2つがある。
-形容詞的機能の他に、動詞と接続詞の機能を兼ねる分詞構文も重要。
+形容詞的機能の他に、動詞と接続詞の機能を兼ねる分詞構文は重要。
 ※ ロイヤル英文法より"
 同格とは何か,"名詞を別の名詞で言い換えること
 同格とは、後続の名詞の格が先行する名詞の格と同じという意味である。
@@ -178,8 +178,18 @@ I'll leave here when the program finishes. - 番組が終わったらここを�
 I have no one to help me. - 私には助けてくれる人がいない
 The answer appears to be wrong. - その答えは間違っているように見える
 ```"
-現在分詞形容詞用法の働きは何か,名詞修飾または補語
-過去分詞形容詞用法の働きは何か,名詞修飾または補語
+現在分詞形容詞用法の働きは何か,"名詞修飾または補語
+
+```
+I know the man driving the car. - 私はあの車を運転している男を知っている
+I heard him singing a song. - 私は彼が歌っているのを聞いた
+```"
+過去分詞形容詞用法の働きは何か,"名詞修飾または補語
+
+```
+The woman dressed in white is a famous actress. - あの白い服を来た女性は有名な女優です
+I saw her carried out of the burning house. - 私は彼女が燃えている家から運びだされるのを見た
+```"
 関係代名詞の内側の働きは何か,"1. 主語
 2. 動詞の目的語
 3. 前置詞の目的語
@@ -199,18 +209,53 @@ whatの内側の働きは何か,"1. 主語
 2. 疑問詞
 3. 関係詞のwhat
 4. 関係詞 + ever
-5. 先行詞の省略された関係副詞"
-形容詞節を作る語は何か,関係詞（ただし、whatと関係詞 + everと先行詞の省略された関係副詞は除く）
+5. 先行詞の省略された関係副詞
+
+```
+（例:1）It is not certain whether he will come at all. - 彼がそもそも来るかどうかは不確かである
+（例:2）He told me what papers to read first on the subject. - 彼はその問題についてまずどんな論文を読むべきか教えてくれた
+（例:3）I gave him what little help I could. - 私は彼にわずかではあるが私の出来る限りの援助を与えた
+（例:4）Whoever leaves the office last should switch off the light. - 会社を最後に出る人は誰でも明かりを消さなくてはならない
+（例:5）Spring is when the garden is most beautiful. - 春は庭が一番美しいときである
+```"
+形容詞節を作る語は何か,"関係詞（ただし、whatと関係詞 + everと先行詞の省略された関係副詞は除く）
+
+```
+What is the name of the tall man who just came in? - 今入ってきた背の高い男の名前は何というのですか
+This is the house where he lives. - これが彼の住んでいる家です
+The Thames is the river which flows through London. - テムズ川はロンドンを流れる川です
+```"
 副詞節を作る語は何か,"1. 従属接続詞
-2. 関係詞 + ever"
+2. 関係詞 + ever
+
+```
+When the movie is over, I'm going straight home. - 映画が終わったら、まっすぐ家に帰ります
+Do it now before you forget. - 忘れないうちにそれを今やりなさい
+It has been two years since I took up tennis. - 私がテニスを始めてから2年になる
+Whoever is responsible, we should seek the best solution of this difficulty. - 誰に責任があるにせよ、この厄介事の最善の解決法を探さなくてはならない
+Whichever you decide upon, I'll back you up. - どちらに決定しても、私はあなたを支援します
+```"
 副詞節を作る従属接続詞は何か,どの従属接続詞も副詞節を作りうる
-名詞節を作る従属接続詞は何か,that、if、whetherの3つ。これらは副詞節を作る場合もある。
+名詞節を作る従属接続詞は何か,"that、if、whetherの3つ。これらは副詞節を作る場合もある。
+
+```
+It surprises me that he denies the story. - 彼がその話を否定するとは驚きだ
+He asked whether the mail carrier had brought something for him. - 彼は郵便配達人が自分宛てのものを何か持ってきたかと尋ねた
+Please ask them if they can help us. - 手伝ってくれるかどうか彼らに聞いてみてください
+```"
 必ず述語動詞になる活用は何か,現在形と過去形
 必ず準動詞になる活用は何か,裸の過去分詞とing
 過去分詞の可能性は何か,"1. 受身（be + p.p）
 2. 完了（have + p.p / be + p.p）
 3. 過去分詞形容詞用法（p.p単独）
-4. 分詞構文（p.p単独）"
+4. 分詞構文（p.p単独）
+
+```
+（例:1）Gestures may be misunderstood. - ジェスチャーは誤解されることがある
+（例:2）The rocket has just taken off. - ロケットは今離陸しました
+（例:3）My father is a retired university professor. - 私の父は退職した大学教授です
+（例:4）Persuaded by his friends, Brutus made up his mind to kill Caesar. - 友人たちに説き伏せられて、ブルータスはシーザーを殺そうと決心した
+```"
 beの可能性,"動詞として用いられる場合と助動詞として用いられる場合とがある。
 
 - 動詞
@@ -234,11 +279,24 @@ ing系の可能性は何か,"- 動名詞(1)
 ```"
 現在分詞の可能性は何か,"1. 進行形
 2. 現在分詞形容詞用法
-3. 分詞構文"
+3. 分詞構文
+
+```
+（例:1）The panda was sleeping. - パンダは眠っていたj
+（例:2）The man standing over there is the owner of the store. - あそこに立っている人がその店の持ち主です
+（例:3）Walking along the stream, I met a group of hikers. - 流れに沿って歩いていると、ハイカーの一群に会った
+```"
 不定詞の可能性は何か,"1. 助動詞の一部 + 述語動詞
 2. 不定詞名詞用法
 3. 不定詞形容詞用法
-4. 不定詞副詞用法"
+4. 不定詞副詞用法
+
+```
+（例:1）He ought to pay his debts. - 彼は借金を払うべきだ
+（例:2）It is impossible to control market tendencies. - 市場の動向を統制するのは不可能である
+（例:3）I have an assignment to do today. - 私には今日やらなければならない宿題がある
+（例:4）You come to school to study, not to play. - 諸君は学校へ勉強しに来るのであって、遊ぶために来るのではない
+```"
 been + p.pの可能性は何か,必ず「完了」の意味で使われる
 being + p.pの可能性は何か,過去分詞の4つの可能性（受身、完了、過去分詞形容詞用法）が全てありうる
 裸のp.p.の意味は何か,自動詞なら完了の意味、他動詞なら受身の意味を表す
