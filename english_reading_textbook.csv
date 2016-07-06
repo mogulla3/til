@@ -99,7 +99,8 @@ I'll leave here when the program finishes. - 番組が終わったらここを�
 （例:2）I can vouch for his having been there. - 私は彼がそこにいたと断言できます
 （例:3）Studying English is no easy task. - 英語を勉強するのは決して容易いことではない
 ```"
-「着物」とは何か,助動詞のこと
+「着物」とは何か,"助動詞のこと
+助動詞にはbe助動詞、have助動詞、一般助動詞の3種類がある。"
 裸の過去分詞とは何か,"beもhaveもつかないで使われた過去分詞のこと。裸の過去分詞は形容詞または副詞の働きをする。
 
 ```
@@ -137,6 +138,9 @@ We want a person who can operate a word processor. - 私たちはワープロの
 I'll leave here when the program finishes. - 番組が終わったらここを出ます（副詞節）
 ```"
 接続詞の2種類は何か,等位接続詞と従属接続詞
+助動詞の3種類は何か,"1. be助動詞
+2. have助動詞
+3. 一般助動詞"
 名詞の働きは何か,"1. 主語
 2. 動詞の目的語
 3. 前置詞の目的語
@@ -161,7 +165,12 @@ I'll leave here when the program finishes. - 番組が終わったらここを�
 （例:3）The president recovered surprisingly quickly. - 大統領は驚くほど早く回復した
 （例:4）Probably the report is true. - おそらくその報告は本当だろう
 ```"
-前置詞の働きは何か,名詞と結合して、前置詞＋名詞の全体で形容詞句または副詞句となる
+前置詞の働きは何か,"名詞と結合して、前置詞＋名詞の全体で形容詞句または副詞句となる
+
+```
+The bill was under heated discussion. - その法案は激しく討論されている最中であった（形容詞句）
+He spoke in a great hurry. - 彼は大急ぎで話した（副詞句）
+```"
 従属接続詞の働きは何か,副詞節を作る。ただしthat、if、whetherは名詞節も作る
 不定詞名詞用法の働きは何か,"1. 主語
 2. 動詞の目的語
@@ -331,7 +340,13 @@ being + p.pの可能性は何か,過去分詞の4つの可能性（受身、完�
 3. 動名詞"
 疑問詞の種類を全て,"1. 疑問代名詞
 2. 疑問形容詞
-3. 疑問副詞"
+3. 疑問副詞
+
+```
+（例:1）Who wrote this novel? - 誰がこの小説を書いたのですか
+（例:2）What kind of dog is that? - あれは何という種類の犬ですか
+（例:3）When does the train get in? - 列車はいつ入ってくるのですか
+```"
 従属節の外側の3要素は何か,"1. 範囲
 2. 品詞
 3. 働き"
