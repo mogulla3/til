@@ -1,0 +1,28 @@
+front,back
+【ノート】時制の一致,"- 時制の一致：主節の動詞が過去時制の時は、原則としてそれに合わせて従節の動詞の時制も過去時制にすること
+- 主節の動詞が現在、現在完了、未来のときは時制の一致は行われない
+- 主節の動詞が過去または過去完了のとき、従節の動詞の時制は原則として次のようになる
+  - 現在 → 過去
+  - 過去 → 過去完了または過去
+  - 現在完了・過去完了 → 過去完了
+- 時制の一致の例外：主節の動詞が過去または過去完了であっても従節の動詞が現在または過去のままで残り、時制の一致が行われない場合がある
+  - 現在のままのパターン：不変の真理や社会通念を表すとき、現在の状態・習慣・特性・職業を表すとき
+  - 過去のままのパターン：歴史上の事実や過去の出来事であることがはっきりしていることを表すとき
+
+```
+I said that he wouldn't come. - 私は彼は来ないだろうと言った
+I thought he had been sick. - 私は彼は病気だったと思う
+She wondered how long he had been in the room. - 彼女は彼がどのくらい部屋にいたのかしらと思った
+She said my letter had arrived when I phoned her. - 彼女は私が電話したときには私の手紙は着いていたと言った
+They believed he would come back soon. - 彼らは彼がすぐ戻ると思っていた
+Franklin was well aware that light travels faster than sound. - フランクリンは光が音より速いことをよく知っていた
+Mr. Okuda asked me what my father does. - 奥田先生は父の職業は何かと尋ねられた
+Did you know that Civil War broke out in 1861? - 南北戦争が1861年に始まったことを知っていましたか
+```"
+彼の家は丘の中腹にあって、見晴らしが素晴らしい,His house stands on the hillside and commands a splendid view.
+彼がいつ来るかわからないが、来れば最善を尽くすだろう,"I cannot tell when he will come, but when he comes, he will do the best."
+昔の人は、地球が丸く、太陽の周囲を回っていることを知らなかった,"Formerly, people did not know that the earth is round and that it moves around the sun."
+赤ん坊を抱いている女の人は、今着いたばかりです,The woman with a baby in her arms arrived here just now.
+「いつ帰って来たのですか？」「一昨日です」,“When did you return?” “I came back the day before yesterday.”
+何が起ころうと覚悟はできていると彼は私に言った,"He told me that whatever might happen, he was prepared for it."
+試験の結果については、後で知らせてあげると彼は言った,He said that he would let us know later about the results of the examination.
