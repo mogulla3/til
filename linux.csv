@@ -51,3 +51,23 @@ RAMとは何か,"- RAM = Random Access Memory
 - 現代のコンピュータのほとんどは半導体記憶素子を用いた主記憶装置（メインメモリ）として用いられるため、メインメモリのことをRAMと呼ぶことが多い
 - 記憶内容を保持するために定期的なリフレッシュ動作が必要なDRAMと、何もしなくても記憶が保持されるSRAMとがあるが、メインメモリとして普及しているのはDRAMの方である
 - CPUの一次キャッシュや2次キャッシュにはSRAMが使われているらしい"
+フルパスからファイル名のみ表示するコマンドは何か,"basename
+
+```
+$ ls /home/vagrant/work/ruby/sample.rb
+/home/vagrant/work/ruby/sample.rb
+$ basename /home/vagrant/work/ruby/sample.rb
+sample.rb
+$ basename -a work/ruby/sample.rb work/ruby/sample2.rb
+sample.rb
+sample2.rb
+```"
+フルパスからファイル名を除いた部分を表示するコマンドは何か,"dirname
+
+```
+$ dirname /var/www/html/index.html
+/var/www/html
+
+$ dirname /var/www/html
+/var/www
+```"

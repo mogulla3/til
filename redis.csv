@@ -1,0 +1,65 @@
+front,back
+Redisがサポートしているデータ構造は何か,"- String: バイナリセーフな文字列
+- Lists: 文字列要素の連結リスト。挿入した順序で保持。Setsと違い要素は重複して良い
+- Sets: 文字列要素の集合。要素はユニーク。順不同。
+- Sorted sets: ソート済み文字列要素の集合。各文字列要素は浮動小数点値に関連づいていて、この値はスコアと呼ばれている。
+- Hashes: ハッシュ。キーバリューのマッピングされたデータを持つ。
+- Bit arrays
+- HyperLogLogs
+
+※ http://redis.io/topics/data-types-intro"
+【ノート】String型のコマンド（抜粋）,"```
+SET key value [EX seconds] [PX milliseconds] [NX|XX]
+MSET key value [key value...]
+GET key
+MGET key [key …]
+INCR key
+DECR key
+SETEX key seconds value
+SETNX key value
+STRLEN key
+```"
+【ノート】List型のコマンド（抜粋）,"```
+RPUSH key value [value...]
+RPUSHX key value
+LPUSH key value [value...]
+LPUSHX key value
+RPOP key
+LPOP key
+LRANGE key start stop
+LLEN key
+```"
+【ノート】Set型のコマンド（抜粋）,"```
+SADD key member [member…]
+SREM key member [member...]
+SMEMBERS key
+SISMEMBER key member
+SUNION key [key...]
+SCARD key
+```"
+【ノート】SortedSet型のコマンド（抜粋）,"```
+ZADD key [NX|XX] [CH] [INCR] score member [score member…]
+ZREM key member [member…]
+ZRANGE key start stop [WITHSCORES]
+```"
+【ノート】Hash型のコマンド（抜粋）,"```
+HSET key field value
+HSETNX key field value
+HMSET key field value [field value..]
+HGET key field
+HMGET key field [field...]
+HGETALL key
+HKEYS key
+HVALS key
+HLEN key
+HDEL key field [field...]
+```"
+有効期限を設定するコマンド,"EXPIRE key seconds
+PEXPIRE key milliseconds"
+有効期限切れの日時を設定するコマンド,"EXPIREAT key timestamp
+PEXPIREAT key timestamp-milliseconds"
+有効期限切れまでの残り時間を参照するコマンド,"TTL key
+PTTL key"
+有効期限を無くすコマンド,PERSIST key
+Redisが提供する、データをディスクに永続化するための２つの方法,"1. スナップショット：ある瞬間のデータを取り出してディスクに書き出す
+2. 追記専用ファイル（AOF)：書き込みコマンドを受け取った時にそれをディスクにコピーする"
