@@ -1,9 +1,96 @@
-front,back,deck_list
+front,back
 Object#sendのメリット,"- sendを使うと呼び出したいメソッド名が通常の引数になり、コードの実行時に呼び出すメソッドを決められるようになる（動的ディスパッチ）
-- privateメソッドを呼び出せる",ruby
+- privateメソッドを呼び出せる"
 動的ディスパッチとはなにか,"コードの実行時に呼び出すメソッドを決めること。Object#sendがその例。
 
 ```
 sample = Sample.new
 sample.send(:test_method)
-```",ruby
+```"
+,
+リフレクションとは何か,
+イントロスペクションとは何か,
+アクセサメソッドとは何か,
+メタプログラミングとは何か,メタプログラミングとは、言語要素を実行時に操作するコードを記述すること
+【ノート】Rubyではクラスを定義するコードとその他のコードに違いがない,"そのため、クラス定義の中に好きなコードを配置できる
+```
+3.times do
+  class C
+    puts “Hello”
+  end
+end
+# => Hello
+# => Hello
+# => Hello
+```"
+「class」キーワードの主な仕事は？,クラスのコンテキストに連れていくこと
+オープンクラスとは何か,"いつでも既存のクラスを再オープンして、その場で修正を加えられる機能のこと。これはStringなどの標準クラスも例外ではない。
+
+```
+class D
+  def x; “x”; end
+end
+
+# Dを再オープンし、メソッドを追加する
+class D
+  def y; “y”; end
+end
+
+obj = D.new
+obj.x # => “x”
+obj.y # => “y”
+```"
+オープンクラスの問題点,既にあるメソッドなどを上書きして、期待する動作を破壊する可能性があること
+インスタンス変数を確認する方法,Object#instance_variables
+【ノート】Rubyのオブジェクトのクラスとインスタンス変数には何のつながりもない。インスタンス変数は値が代入された時にはじめて出現する。,そのため、同じクラスのオブジェクトであってもインスタンス変数の数が異なる場合もある。
+Rubyのオブジェクトにはメソッドは無く、インスタンス変数とクラスへの参照があるのみだが、メソッドはどこにあるか？,"メソッドはオブジェクトではなく、クラスに存在する。
+[![https://gyazo.com/367612a914ba0a616efff2cb76ba882b](https://i.gyazo.com/367612a914ba0a616efff2cb76ba882b.png)](https://gyazo.com/367612a914ba0a616efff2cb76ba882b)"
+クラスのクラスは何か,"Classクラス
+
+```
+“hello”.class # => String
+String.class # => Class
+```"
+オブジェクトのメソッドは、そのクラスのインスタンスメソッドである。ではクラスのメソッドは？,"Classクラスのインスタンスメソッド
+
+```
+Class.instance_methods(false)
+# => [:allocate, :new, :superclass]
+```"
+Classクラスのスーパークラスは何か,"Module
+```
+Class.superclass # => Module
+```
+
+つまり、全てのクラスはモジュールである。より正確に言うとクラスはオブジェクトの生成やクラスを継承するための3つのインスタンスメソッド（new, allocate, superclass）を追加したモジュールである"
+【図】クラスはただのオブジェクトである,[![https://gyazo.com/a0c5d87a644fb241039c1111dd01bd5d](https://i.gyazo.com/a0c5d87a644fb241039c1111dd01bd5d.png)](https://gyazo.com/a0c5d87a644fb241039c1111dd01bd5d)
+定数と変数の重要な違いは何か,"スコープの違い
+```
+module MyModule
+  MyConstant = 'external'
+
+  class MyClass
+    MyConstant = 'internal'
+  end
+end
+```
+
+モジュール・クラスをディレクトリ、定数をファイルとみなしてツリー構造で配置されていると考えるとわかりやすい"
+オブジェクトとは何か,インスタンス変数の集まりにクラスへのリンクがついたモノである
+オブジェクトのメソッドはどこに住んでいるか,オブジェクトではなくオブジェクトのクラスに住んでいて、クラスのインスタンスメソッドと呼ばれる
+クラスとは何か,オブジェクト（Classクラスのインスタンス）にインスタンスメソッドの一覧とスーパークラスへのリンクがついたモノである。ClassクラスはModuleクラスのサブクラスなのでクラスもモジュールである
+Objectのクラスは何か,"Classクラス
+```
+Object.class
+=> Class
+```"
+Moduleのスーパークラスは何か,"Objectクラス
+```
+Module.superclass
+=> Object
+```"
+Classのクラスは何か,"Classクラス
+```
+Class.class
+=> Class
+```"

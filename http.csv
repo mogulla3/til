@@ -1,0 +1,69 @@
+front,back
+HTTPヘッダフィールドには大きく4種類あるが、それは何か,"① 一般ヘッダフィールド（General Header Fields）
+リクエストとレスポンスの双方で使用されるヘッダ
+
+② リクエストヘッダーフィールド（Request Header Fields）
+クライアントからサーバに対して送信されるリクエストメッセージに使用されるヘッダ
+
+③ レスポンスヘッダーフィールド（Response Header Fields）
+サーバからクライアントに対して送信されるレスポンスメッセージに使用されるヘッダ
+
+④ エンティティヘッダーフィールド（Entity Header Fields）
+リクエストメッセージとレスポンスメッセージに含まれるエンティティに使用されるヘッダ"
+HTTP/1.1で定義されているヘッダーフィールドは何種類あるか,47種類
+Cache-Control ヘッダフィールドの種類と意味,"- 一般ヘッダフィールド
+- キャッシング動作の指定をする
+
+```
+Cache-Control: private, no-cache, no-store, must-revalidate
+```"
+Connection ヘッダフィールドの種類と意味,"- 一般ヘッダフィールド
+- コネクション管理？
+- 持続接続機能をブラウザがサポートしている場合、その旨を伝える。持続接続を完了する場合、サーバはcloseを返却する
+
+```
+Connection: Keep-Alive
+Connection: close
+```"
+Date ヘッダフィールドの種類と意味,"- 一般ヘッダフィールド
+- メッセージ生成の日時を示す
+
+```
+Date: Tue, 06 Sep 2016 14:25:10 GMT
+```"
+Pragma ヘッダフィールドの種類と意味,"- 一般ヘッダフィールド
+- 様々な用途で使用される
+
+```
+Pragma: no-cache
+```"
+Transfer-Encoding ヘッダフィールドの種類と意味,"- 一般ヘッダフィールド
+- メッセージボディの転送コーディング形式の指定
+
+```
+Transfer-Encoding: chunked
+```"
+Upgrade ヘッダフィールドの種類と意味,"- 一般ヘッダフィールド
+- 他のプロトコルへを用いることを推奨する旨を相手に伝える
+
+```
+Upgrade: HTTP/2.0,SHTTP/1.3
+```"
+Via ヘッダフィールドの種類と意味,"- 一般ヘッダフィールド
+- プロキシサーバなどメッセージの転送経路に関する情報を示す
+
+```
+Via: http/1.1 edge1030.img.bbt.yahoo.co.jp (ApacheTrafficServer [cHs f ]), http/1.1 edge1036.img.bbt.yahoo.co.jp (ApacheTrafficServer [cRs f ])
+```"
+Warning ヘッダフィールドの種類と意味,"- 一般ヘッダフィールド
+- エラー通知
+
+```
+Warning: 110 xxxsv “Response is stale”
+```"
+Trailer ヘッダフィールドの種類と意味,"- 一般ヘッダフィールド
+- ヘッダ情報をコンテンツの先頭ではなくチャンク形式で分割送信されたコンテンツの後ろに付加する場合、そこに追加されたヘッダの一覧を示す
+
+```
+Trailer: Content-Length
+```"
