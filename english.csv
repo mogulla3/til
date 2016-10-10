@@ -1,19 +1,16 @@
 front,back
 残念だけど...,"I'm afraid..
-(ex) I'm afraid it will rain tonight(残念だけど今夜は雨のようだ）"
+
+```
+I'm afraid it will rain tonight.
+残念だけど今夜は雨のようだ
+```"
 ...するのはどう？,"How about if..?
-(ex) How about if we go to the outlet mall?（アウトレットモールに行くのはどう？）"
-灰皿,"ashtray
-(ex) empty an ashtray（灰皿の灰を捨てる）"
-雀,"sparrow
-(ex) Sparrow and his Four Children（親雀と4羽の小雀 – グリム童話）"
-切手,"stamp
-(ex) Which window sells stamps?（切手が買える窓口はどこですか？）"
-秘書,"secretary
-(ex) Secretary Division（秘書課）"
-弁護士,"lawyer
-(ex) A lawyer never goes to lay himself（弁護士が自分のことで法にすがることはない – ことわざ）"
-彼は親切です,He is kind.
+
+```
+How about if we go to the outlet mall?
+アウトレットモールに行くのはどう？
+```"
 ファイルの名称をbefore.txtからafter.txtに変更しました,I changed file name from 'before.txt' to 'after.txt'.
 新機能を実装しました,I implemented new feature.
 はじめまして。,Nice to meet you.
@@ -31,12 +28,22 @@ Don't mention it."
 彼女に会うのを楽しみにしています。,I'm looking forward to seeing her.
 気にしないでください,"Forget it.
 
-Sorry I didn't come to your party.（パーティにいけなくてごめんなさい）
-It's OK. Forget it.（いいんですよ。気にしないでください）"
+```
+Sorry I didn't come to your party.
+パーティにいけなくてごめんなさい
+
+It's OK. Forget it.
+いいんですよ。気にしないでください
+```"
 お腹空いてないのですか？,"Aren't you hungry?
 
-Aren't you cold?（寒くないのですか？）
-No, not really.（いや、それほどでもないよ）"
+```
+Aren't you cold?
+寒くないのですか？
+
+No, not really.
+いや、それほどでもないよ
+```"
 今何をしているのですか？,What are you doing now?
 あなたは本を何冊持っていますか？,How many books do you have?
 彼女はいくらお金が必要なのですか？,How much money does she need?
@@ -47,3 +54,39 @@ No, not really.（いや、それほどでもないよ）"
 聞き取れませんでした。もう一度言ってもらえますか。,Sorry? Can you say that again?
 すいませんが、もう少しゆっくり話してもらえませんか。,"Excuse me, but could you speak more slowly?"
 私は英語があまり得意ではないので簡単な英語でゆっくりと話してください,"I am not very good at English, so please speak slowly with easy words."
+~をお願いします、~をください,"~, please.
+
+```
+The wine list, please.
+ワインリストをお願いします
+```"
+~してもいいですか,"Can I ~?
+
+```
+Can I taste it?
+試食してもいいですか？
+```"
+~はありますか？、〜を持っていますか？,"Do you have ~?
+
+```
+Do you have a charger for an iPhone?
+iPhone用の充電器はありますか？
+```"
+~はどこですか？,"Where's ~?
+
+```
+Where's the nearest ATM?
+一番近くのATMはどこですか？
+```"
+〜したいのですが,"I'd like to ~.
+
+```
+I'd like to send this to Japan.
+これを日本に送りたいのですが
+```"
+〜は何ですか？、何が〜ですか？,"What's ~?
+
+```
+What's the password for the WiFi?
+WiFiのパスワードは何ですか？
+```"
