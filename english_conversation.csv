@@ -54,25 +54,25 @@ No, not really.
 聞き取れませんでした。もう一度言ってもらえますか。,Sorry? Can you say that again?
 すいませんが、もう少しゆっくり話してもらえませんか。,"Excuse me, but could you speak more slowly?"
 私は英語があまり得意ではないので簡単な英語でゆっくりと話してください,"I am not very good at English, so please speak slowly with easy words."
-~をお願いします、~をください,"~, please.
+〜をお願いします、〜をください,"~, please.
 
 ```
 The wine list, please.
 ワインリストをお願いします
 ```"
-~してもいいですか,"Can I ~?
+〜してもいいですか,"Can I ~?
 
 ```
 Can I taste it?
 試食してもいいですか？
 ```"
-~はありますか？、〜を持っていますか？,"Do you have ~?
+〜はありますか？、〜を持っていますか？,"Do you have ~?
 
 ```
 Do you have a charger for an iPhone?
 iPhone用の充電器はありますか？
 ```"
-~はどこですか？,"Where's ~?
+〜はどこですか？,"Where's ~?
 
 ```
 Where's the nearest ATM?
@@ -275,4 +275,48 @@ How often do the trains run?
 
 About every 15 minutes.
 15分おきくらいです
+```"
+チェックインしたいのですが。予約はしてあります。,I'd like to check in. I have a reservation.
+お名前をいただけますか？,May I have your name?
+この用紙にご記入いただけますか？,Could you fill out this form?
+〜は何時ですか？,"What time ~?
+
+```
+What time is checkout?
+チェックアウトは何時ですか？
+
+Checkout time is noon.
+チェックアウト時刻は正午です
+```"
+朝食が終わるのは何時ですか？,What time does breakfast finish?
+〜をありがとう,"Thank you for ~
+
+```
+Thank you for your advise.
+アドバイスをありがとう
+```"
+"いつでもどうぞ
+（相手のお礼の言葉に対する応答）",Anytime
+"どうぞ（お話ください）
+※ 相手に話を続けてもらうときの表現","Please go ahead.
+
+```
+Hello. This is Room 423. I'd like to order something.
+もしもし。423号室です。注文をしたいのですが。
+
+Please go ahead.
+どうぞ
+```"
+"他に何かございますか？
+（他に注文が無いか聞く際の表現）","Would you like anything else?
+
+```
+I'd like a beef sandwich.
+ビーフサンドをお願いします
+
+Certainly. Would you like anything else?
+かしこまりました。他になにかございますか？
+
+That's all, thanks.
+それで結構です。
 ```"
