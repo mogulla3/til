@@ -368,10 +368,23 @@ Do you stop at 42nd Street?
 4つ目の停留所です,It's four stops.
 なぜあなたは英語を学び始めたのですか？,Why did you start learning English?
 普段何時頃に起きますか,What time do you get up usually?
+普段は7:00に起きています,I get up at seven usually.
 どこに住んでいますか,Where do you live?
+東京に住んでいます,I live in Tokyo.
+東京都墨田区に住んでいます,"I live in Sumida City, Tokyo."
 今何時ですか,What time is it now?
+午後3時15分です,"It's three fifteen pm.
+※ 英語に24時間表現は無いらしい"
+午後5時ちょうどです,It's five o'clock pm.
+午前7時10分前（6:50）です,It's ten minutes before seven.
 休日は何をしていますか？,"What are you doing on your days off?
-What are you doing on your holidays?"
+What are you doing on your holidays?
+How do you spend your day off?"
+暇な時は何をしていますか,How do you spend your free time?
+映画を見るか本を読んでいます,I watch a movie or read a book
+最近は友人とゴルフをしています,I play golf with friend these days.
+何という映画を見たのですか？,What (movie) did you watch?
+「ライ麦畑でつかまえて」という本を読みました,I read a book titled 'The Catcher in the Rye'.
 兄弟はいますか？,"Do you have any siblings?
 Do you have any brothers or sisters?"
 "兄が一人います
@@ -388,6 +401,8 @@ I have one older brother.
 あなたは何人の兄弟がいますか,How many brothers or sisters do you have?
 どこで働いていますか,Where do you work?
 会社はどこにあるのですか？,Where is your company?
+東京都にあります,It's in Tokyo.
+東京都品川区にあります,It's in the Sinagawa ward of Tokyo.
 お仕事は何ですか,What do you do?
 どのようなお仕事をしていますか,What kind of work do you do?
 エンジニアです,I am an engineer.
@@ -402,3 +417,11 @@ I work over time almost everyday.
 トイレに行きたいです,"I want to go to a bathroom.
 ※ アメリカ・オーストラリアではトイレは「bathroom」らしい
 ※ イギリスなどでは「toilet」らしい"
+単純に,"simply
+
+```
+I like English simply.
+単純に英語が好きです
+```"
+より正確に英語を聞き取れるようになりたいです,I want to be able to catch English more accurately.
+それはいいですね,That's nice.
