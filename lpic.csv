@@ -71,3 +71,94 @@ $ chmod 755 sample.txt
 - 2：書き込み権限
 - 1：実行権限
 - 0：権限なし"
+umask値が022の場合、ファイルを新規に作成した際のパーミッションはどうなるか,644になる
+ユーザのデフォルトパーミッションは何で決められているか,"シェルに設定されたumask値で決まる。umaskコマンドで現在の値を確認できる
+
+```
+$ umask
+0002
+```"
+作成されるファイルのパーミッションはどのようにして決まるか,ファイルを作成するアプリケーションによって指定されたパーミッションと、プロセスごとにカーネル内に保持されているumask値との論理積になる
+umask値とは何か,アプリケーションによって指定されたパーミッションに対し、「ユーザ」、「グループ」、「その他」毎に割り当てたくないパーミッションを指定した値
+umask値はどのようにして変更するか,"umaskコマンドを使う
+
+```
+# 例：umask値を027にする
+$ umask 027
+```"
+【ノート】umask値から作成されるファイルパーミッションを求める方法,"- 通常、全てを許可するパーミッションでファイル・ディレクトリは作成される
+  - ファイル：666
+  - ディレクトリ：777
+- 上記のパーミッションからumask値に指定された値を引く
+- 例：umask値が002の場合にファイルを作成すると、666から002を引いて664となる
+- 例：umask値が002の場合にディレクトリを作成すると、777から002を引いて775となる"
+TODO,"- set
+- env
+- printenv
+- declare
+- date
+- man
+- history
+- su
+- mkdir
+- mv
+- cp
+- lsattr
+- chattr
+- ls
+- rm
+- tar
+- cpio
+- dd
+- gzip
+- gunzip
+- bzip2
+- bunzip2
+- touch
+- more
+- less
+- cat
+- nl
+- tac
+- grep
+- xargs
+- find
+- tr
+- od
+- iconv
+- sed
+- cut
+- wc
+- expand
+- unexpand
+- fmt
+- pr
+- split
+- egrep
+- fgrep
+- ps
+- pstree
+- top
+- nice
+- renice
+- jobs
+- fg
+- bg
+- nohup
+- kill
+- killall
+- fdisk
+- gdisk
+- parted
+- gparted
+- mkfs
+- mke2fs
+- xfs_info
+- xfs_metadump
+- xfs_freeze
+- mkswap
+- swapon
+- swapoff
+- df
+- du
+"
