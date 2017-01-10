@@ -1,0 +1,28 @@
+front,back
+[ox] ユーザは必ず1つ以上のグループに所属する,正しい
+グループには2種類あるが、それは何か,"- 1次グループ：必須。ログイン直後の作業グループ。ファイルやディレクトリを作成した際に、それを所有するグループとして使われる。
+- 2次グループ：必要に応じて割り当てられる、1次グループ以外のグループ。複数割り当てることができる"
+[command] groupsコマンドは何をするか,"自分または指定したユーザの所属グループを表示する
+
+```
+$ groups
+vagrant
+
+# ユーザ名を指定することも可能
+$ sudo groups sshd
+sshd : sshd
+```"
+[command] idコマンドは何をするか,"自分がどのユーザでログインしているのか、またどのグループに所属しているのかを表示する
+
+```
+$ id
+uid=1000(vagrant) gid=1000(vagrant) groups=1000(vagrant) context=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023
+```"
+ファイルまたはディレクトリのパーミッションを確認したい。どうすればいいか？,"ls -lでパーミッション、ファイルの所有者、所有するグループを表示できる
+
+```
+# ls -l <file/directory>
+
+$ ls -l fileA
+-rw-rw-r--. 1 vagrant vagrant 18 Jan  3 14:27 fileA
+```"
