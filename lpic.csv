@@ -26,3 +26,23 @@ uid=1000(vagrant) gid=1000(vagrant) groups=1000(vagrant) context=unconfined_u:un
 $ ls -l fileA
 -rw-rw-r--. 1 vagrant vagrant 18 Jan  3 14:27 fileA
 ```"
+ls -lコマンドでファイル・ディレクトリのパーミッションを確認できるが、どのような構成で表示されるか,"以下4つの情報を含む
+
+- ファイルの種類
+- ユーザ（所有者）に対するパーミッション
+- グループに対するパーミッション
+- その他のユーザに対するパーミッション
+
+```
+# 例
+-rw-rw-r--
+```"
+【ノート】パーミッション情報に含まれる「ファイルの種類」とその記号,"- `-`：通常ファイル
+- `d`：ディレクトリ
+- `l`：シンボリックリンク
+
+```
+$ ls -l
+drwxrwxr-x. 2 vagrant vagrant    33 Aug  3 16:41 bin
+-rw-rw-r--. 1 vagrant vagrant    18 Jan  3 14:27 fileA
+```"
