@@ -39,6 +39,72 @@ $ unset MYNAME
 $ echo $MYNAME
 
 ```"
+exportコマンドは何をするか,シェル変数を環境変数に設定し、シェルから起動するアプリケーションが参照できるようにする
+daclareコマンドは何をするか,シェル内の変数・関数の表示や環境変数のエクスポートをする
+bashのシェル変数PS1は何か,プロンプトの定義をする変数
+【ノート】bashのプロンプト定義に使える表記,"- \s：シェルの名前
+- \v：bashのバージョン
+- \u：ユーザ名
+- \h：ホスト名
+- \w：現在の作業ディレクトリ"
+2次プロンプトとは何か,"まだコマンドラインが完了していない、継続行のこと
+
+```
+$ echo 'aiu
+> eo'
+```"
+「cd ~foo」を実行するとどうなるか,ユーザfooのホームディレクトリへ移動する
+date +%Mコマンドを実行するとどうなるか,"日時の分のみが表示される
+※ dateコマンドは実行時に+記号に続けて表示フォーマットを指定できる "
+【ノート】dateコマンドの主な指定文字,"- %Y：年
+- %m：月（01 ~ 12）
+- %B：月（Januaryなど）
+- %d：日
+- %A：曜日（例：Tuesday）
+- %H：時（0 ~ 23）
+- %M：分（0 ~ 59）
+- %S：秒（0 ~ 60）
+- %s：UNIXTIME
+"
+manコマンドが実行時に参照するドキュメントファイルの置き場はどこか,"次の2つ
+
+- `/usr/share/man`：ディストリビューションに含まれるパッケージをインストールした場合はこちらに
+- `/usr/local/share/man`：ディストリビューションに含まれないパッケージをインストールした場合はこちらに"
+履歴番号100のコマンドを消去するコマンドは何か,"historyコマンドのdオプションを使う
+
+```
+$ history -d 100
+```"
+履歴番号100のコマンドを実行するコマンドは何か,"!マークに続けて履歴番号を入力して実行する
+
+```
+$ !100
+```"
+指定した文字列から始まる直近のコマンドを実行するコマンドは何か,"```
+$ !l
+ls
+bin fileA fileB
+```"
+直前に実行したコマンドを実行するコマンドは何か,"```
+$ !!
+```"
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
 ,
 ,
 ,
@@ -146,73 +212,73 @@ $ umask 027
 - 上記のパーミッションからumask値に指定された値を引く
 - 例：umask値が002の場合にファイルを作成すると、666から002を引いて664となる
 - 例：umask値が002の場合にディレクトリを作成すると、777から002を引いて775となる"
-TODO,"- set
-- env
-- printenv
-- declare
-- date
-- man
-- history
-- su
-- mkdir
-- mv
-- cp
-- lsattr
-- chattr
-- ls
-- rm
-- tar
-- cpio
-- dd
-- gzip
-- gunzip
-- bzip2
-- bunzip2
-- touch
-- more
-- less
-- cat
-- nl
-- tac
-- grep
-- xargs
-- find
-- tr
-- od
-- iconv
-- sed
-- cut
-- wc
-- expand
-- unexpand
-- fmt
-- pr
-- split
-- egrep
-- fgrep
-- ps
-- pstree
-- top
-- nice
-- renice
-- jobs
-- fg
-- bg
-- nohup
-- kill
-- killall
-- fdisk
-- gdisk
-- parted
-- gparted
-- mkfs
-- mke2fs
-- xfs_info
-- xfs_metadump
-- xfs_freeze
-- mkswap
-- swapon
-- swapoff
-- df
-- du
-"
+,
+[command] set,TODO
+[command] env,TODO
+[command] printenv,TODO
+[command] declare,TODO
+[command] date,TODO
+[command] man,TODO
+[command] history,TODO
+[command] su,TODO
+[command] mkdir,TODO
+[command] mv,TODO
+[command] cp,TODO
+[command] lsattr,TODO
+[command] chattr,TODO
+[command] ls,TODO
+[command] rm,TODO
+[command] tar,TODO
+[command] cpio,TODO
+[command] dd,TODO
+[command] gzip,TODO
+[command] gunzip,TODO
+[command] bzip2,TODO
+[command] bunzip2,TODO
+[command] touch,TODO
+[command] more,TODO
+[command] less,TODO
+[command] cat,TODO
+[command] nl,TODO
+[command] tac,TODO
+[command] grep,TODO
+[command] xargs,TODO
+[command] find,TODO
+[command] tr,TODO
+[command] od,TODO
+[command] iconv,TODO
+[command] sed,TODO
+[command] cut,TODO
+[command] wc,TODO
+[command] expand,TODO
+[command] unexpand,TODO
+[command] fmt,TODO
+[command] pr,TODO
+[command] split,TODO
+[command] egrep,TODO
+[command] fgrep,TODO
+[command] ps,TODO
+[command] pstree,TODO
+[command] top,TODO
+[command] nice,TODO
+[command] renice,TODO
+[command] jobs,TODO
+[command] fg,TODO
+[command] bg,TODO
+[command] nohup,TODO
+[command] kill,TODO
+[command] killall,TODO
+[command] fdisk,TODO
+[command] gdisk,TODO
+[command] parted,TODO
+[command] gparted,TODO
+[command] mkfs,TODO
+[command] mke2fs,TODO
+[command] xfs_info,TODO
+[command] xfs_metadump,TODO
+[command] xfs_freeze,TODO
+[command] mkswap,TODO
+[command] swapon,TODO
+[command] swapoff,TODO
+[command] df,TODO
+[command] du,TODO
